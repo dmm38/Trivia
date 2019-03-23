@@ -1,0 +1,97 @@
+body {
+    background-color: white;
+    //background: url('../images/stars.jpg');
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+div .jumbotron {
+    background: transparent;
+    color: black;
+}
+
+.btn {
+    margin: 0.001;
+}
+
+#img-container {
+    margin: 3% 0 0 2%;
+}
+
+#quiz {
+    z-index: 1;
+}
+
+#start-quiz {
+    margin: 5% 0 0 42.5%
+}
+
+#question-number {
+    color: white;
+    background: rgb(75, 75, 75);
+    width: 16%;
+    height: 30px;
+    padding: 5px;
+    border-radius: 4px;
+    margin-left: 42%;
+}
+
+#answer-choices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#done {
+    margin: 5% 0 0 46.5%
+}
+
+#correct {
+    color: green;
+}
+
+#incorrect{
+    color: red;
+}
+
+
+/* Individual images */
+
+#1 {
+    margin: -3% 0 0 -17%;
+    height: 120%;
+    width: 120%;
+}
+
+#a {
+    margin: -2% 0 0 21.5%;
+    height: 1%;
+    width: 1%;
+}
+
+#b {
+    margin: -7% 0 0 17.5%;
+    height: 60%;
+    width: 60%;
+}
+
+#c {
+    margin: -3% 0 0 21.5%;
+    height: 50%;
+    width: 50%;
+}
+
+#d {
+    margin: -8% 0 0 17%;
+    height: 60%;
+    width: 60%;
+     
+}
+
+#e {
+    margin: 0 auto;
+    height: 10%;
+    width: 10%;
+    
+}
